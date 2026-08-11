@@ -1,6 +1,4 @@
-#Motion++ extension
-
-Motion ++ adds powerful new movement blocks that let you control other sprites, not just the one running the script. This makes it perfect for advanced projects, AI systems, multi‑character games, and custom engines.
+# Motion++ extension
 
 **✨ Features**
 Move any sprite from any script
@@ -21,6 +19,7 @@ Motion ++ currently includes:
 previously included the following blocks that were removed (they didn't work) :
 
 point [sprite] towards [sprite]
+
 if [sprite] on edge, bounce
 
 Please note that these blocks might be fixed and come back. Feel free to suggest any block to add at https://github.com/tom35011/MotionPlusPlus/issues
