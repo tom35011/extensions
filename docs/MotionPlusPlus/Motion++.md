@@ -16,7 +16,7 @@ Choose whether clones are affected or not
 
 Motion ++ currently includes:
 
-![MotionPlusPlus Blocks](../doc/MotionPlusPlus/MotionPlusPlus_blocks.png)
+![MotionPlusPlus Blocks](..docs/MotionPlusPlus/MotionPlusPlus_blocks.png)
 
 ## Removed blocks
 
