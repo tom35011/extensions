@@ -19,8 +19,6 @@ Motion ++ currently includes:
 
 <img width="1036" height="976" alt="block_2026-08-11-10 h 25 min 26 s" src="https://github.com/user-attachments/assets/55b3a2b0-d319-46ec-b9b2-f7d4a4b62c76" />
 
-![MotionPlusPlus Blocks](../images/motion++blocks.png)
-
 ## Removed blocks
 
 previously included the following blocks that were removed (they didn't work) :
