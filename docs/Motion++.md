@@ -16,6 +16,8 @@ Choose whether clones are affected or not
 **Included Blocks**
 Motion ++ currently includes:
 
+<img width="1036" height="976" alt="block_2026-08-11-10 h 25 min 26 s" src="https://github.com/user-attachments/assets/55b3a2b0-d319-46ec-b9b2-f7d4a4b62c76" />
+
 move [sprite] [steps] steps [mode]
 
 go to x [X] y [Y] for [sprite] [mode]
@@ -42,4 +44,5 @@ point [sprite] towards [sprite]
 if [sprite] on edge, bounce
 
 Please note that these blocks might be fixed and come back. Feel free to suggest any block to add at https://github.com/tom35011/MotionPlusPlus/issues
+
 Please report bugs at https://github.com/tom35011/MotionPlusPlus/issues
