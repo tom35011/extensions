@@ -16,7 +16,7 @@ Choose whether clones are affected or not
 
 Motion ++ currently includes:
 
-![MotionPlusPlus Blocks](..images/tom350)
+![MotionPlusPlus Blocks](..images/tom350/MotionPPblocks.png)
 
 ## Removed blocks
 
