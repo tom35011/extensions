@@ -25,6 +25,6 @@ point [sprite] towards [sprite]
 
 if [sprite] on edge, bounce
 
-# Please note that these blocks might be fixed and come back. Feel free to suggest any block to add at https://github.com/tom35011/MotionPlusPlus/issues
+Please note that these blocks might be fixed and come back. Feel free to suggest any block to add at https://github.com/tom35011/MotionPlusPlus/issues
 
 # Please report bugs at https://github.com/tom35011/MotionPlusPlus/issues
