@@ -249,9 +249,15 @@
             blockType: Scratch.BlockType.COMMAND,
             text: Scratch.translate("turn right [SPRITE] [DEG] degrees [MODE]"),
             arguments: {
-              SPRITE: { type: Scratch.ArgumentType.STRING, menu: "menuSprites" },
+              SPRITE: {
+                type: Scratch.ArgumentType.STRING,
+                menu: "menuSprites",
+              },
               DEG: { type: Scratch.ArgumentType.NUMBER, defaultValue: 15 },
-              MODE: { type: Scratch.ArgumentType.STRING, menu: "menuCloneMode" }
+              MODE: {
+                type: Scratch.ArgumentType.STRING,
+                menu: "menuCloneMode",
+              },
             },
             extensions: ["colours_motion"],
           },
@@ -261,9 +267,15 @@
             blockType: Scratch.BlockType.COMMAND,
             text: Scratch.translate("turn left [SPRITE] [DEG] degrees [MODE]"),
             arguments: {
-              SPRITE: { type: Scratch.ArgumentType.STRING, menu: "menuSprites" },
+              SPRITE: {
+                type: Scratch.ArgumentType.STRING,
+                menu: "menuSprites",
+              },
               DEG: { type: Scratch.ArgumentType.NUMBER, defaultValue: 15 },
-              MODE: { type: Scratch.ArgumentType.STRING, menu: "menuCloneMode" }
+              MODE: {
+                type: Scratch.ArgumentType.STRING,
+                menu: "menuCloneMode",
+              },
             },
             extensions: ["colours_motion"],
           },
@@ -275,8 +287,14 @@
             arguments: {
               X: { type: Scratch.ArgumentType.NUMBER, defaultValue: 0 },
               Y: { type: Scratch.ArgumentType.NUMBER, defaultValue: 0 },
-              SPRITE: { type: Scratch.ArgumentType.STRING, menu: "menuSprites" },
-              MODE: { type: Scratch.ArgumentType.STRING, menu: "menuCloneMode" }
+              SPRITE: {
+                type: Scratch.ArgumentType.STRING,
+                menu: "menuSprites",
+              },
+              MODE: {
+                type: Scratch.ArgumentType.STRING,
+                menu: "menuCloneMode",
+              },
             },
             extensions: ["colours_motion"],
           },
@@ -287,8 +305,14 @@
             text: Scratch.translate("change x by [DX] for [SPRITE] [MODE]"),
             arguments: {
               DX: { type: Scratch.ArgumentType.NUMBER, defaultValue: 10 },
-              SPRITE: { type: Scratch.ArgumentType.STRING, menu: "menuSprites" },
-              MODE: { type: Scratch.ArgumentType.STRING, menu: "menuCloneMode" }
+              SPRITE: {
+                type: Scratch.ArgumentType.STRING,
+                menu: "menuSprites",
+              },
+              MODE: {
+                type: Scratch.ArgumentType.STRING,
+                menu: "menuCloneMode",
+              },
             },
             extensions: ["colours_motion"],
           },
@@ -299,8 +323,14 @@
             text: Scratch.translate("change y by [DY] for [SPRITE] [MODE]"),
             arguments: {
               DY: { type: Scratch.ArgumentType.NUMBER, defaultValue: 10 },
-              SPRITE: { type: Scratch.ArgumentType.STRING, menu: "menuSprites" },
-              MODE: { type: Scratch.ArgumentType.STRING, menu: "menuCloneMode" }
+              SPRITE: {
+                type: Scratch.ArgumentType.STRING,
+                menu: "menuSprites",
+              },
+              MODE: {
+                type: Scratch.ArgumentType.STRING,
+                menu: "menuCloneMode",
+              },
             },
             extensions: ["colours_motion"],
           },
@@ -311,8 +341,14 @@
             text: Scratch.translate("set x to [X] for [SPRITE] [MODE]"),
             arguments: {
               X: { type: Scratch.ArgumentType.NUMBER, defaultValue: 0 },
-              SPRITE: { type: Scratch.ArgumentType.STRING, menu: "menuSprites" },
-              MODE: { type: Scratch.ArgumentType.STRING, menu: "menuCloneMode" }
+              SPRITE: {
+                type: Scratch.ArgumentType.STRING,
+                menu: "menuSprites",
+              },
+              MODE: {
+                type: Scratch.ArgumentType.STRING,
+                menu: "menuCloneMode",
+              },
             },
             extensions: ["colours_motion"],
           },
@@ -323,8 +359,14 @@
             text: Scratch.translate("set y to [Y] for [SPRITE] [MODE]"),
             arguments: {
               Y: { type: Scratch.ArgumentType.NUMBER, defaultValue: 0 },
-              SPRITE: { type: Scratch.ArgumentType.STRING, menu: "menuSprites" },
-              MODE: { type: Scratch.ArgumentType.STRING, menu: "menuCloneMode" }
+              SPRITE: {
+                type: Scratch.ArgumentType.STRING,
+                menu: "menuSprites",
+              },
+              MODE: {
+                type: Scratch.ArgumentType.STRING,
+                menu: "menuCloneMode",
+              },
             },
             extensions: ["colours_motion"],
           },
@@ -332,11 +374,19 @@
             filter: [Scratch.TargetType.SPRITE],
             opcode: "pointDirection",
             blockType: Scratch.BlockType.COMMAND,
-            text: Scratch.translate("point in direction [DIR] for [SPRITE] [MODE]"),
+            text: Scratch.translate(
+              "point in direction [DIR] for [SPRITE] [MODE]"
+            ),
             arguments: {
               DIR: { type: Scratch.ArgumentType.ANGLE, defaultValue: 90 },
-              SPRITE: { type: Scratch.ArgumentType.STRING, menu: "menuSprites" },
-              MODE: { type: Scratch.ArgumentType.STRING, menu: "menuCloneMode" }
+              SPRITE: {
+                type: Scratch.ArgumentType.STRING,
+                menu: "menuSprites",
+              },
+              MODE: {
+                type: Scratch.ArgumentType.STRING,
+                menu: "menuCloneMode",
+              },
             },
             extensions: ["colours_motion"],
           },
@@ -344,14 +394,25 @@
             filter: [Scratch.TargetType.SPRITE],
             opcode: "rotationStylePlus",
             blockType: Scratch.BlockType.COMMAND,
-            text: Scratch.translate("set rotation style [STYLE] for [SPRITE] [MODE]"),
+            text: Scratch.translate(
+              "set rotation style [STYLE] for [SPRITE] [MODE]"
+            ),
             arguments: {
-              STYLE: { type: Scratch.ArgumentType.STRING, menu: "menuRotation" },
-              SPRITE: { type: Scratch.ArgumentType.STRING, menu: "menuSprites" },
-              MODE: { type: Scratch.ArgumentType.STRING, menu: "menuCloneMode" }
+              STYLE: {
+                type: Scratch.ArgumentType.STRING,
+                menu: "menuRotation",
+              },
+              SPRITE: {
+                type: Scratch.ArgumentType.STRING,
+                menu: "menuSprites",
+              },
+              MODE: {
+                type: Scratch.ArgumentType.STRING,
+                menu: "menuCloneMode",
+              },
             },
             extensions: ["colours_motion"],
-          }
+          },
         ],
         menus: {
           WHAT: {
@@ -377,16 +438,16 @@
           },
           menuSprites: {
             acceptReporters: false,
-            items: "getSpriteNames"
+            items: "getSpriteNames",
           },
           menuCloneMode: {
             acceptReporters: false,
-            items: "getCloneModes"
+            items: "getCloneModes",
           },
           menuRotation: {
             acceptReporters: false,
-            items: ["left-right", "don't rotate", "all around"]
-          }
+            items: ["left-right", "don't rotate", "all around"],
+          },
         },
       };
     }
@@ -570,8 +631,8 @@
     // Motion++ helper methods
     getSpriteNames() {
       return Scratch.vm.runtime.targets
-        .filter(t => t.isSprite && !t.isStage)
-        .map(t => t.sprite.name);
+        .filter((t) => t.isSprite && !t.isStage)
+        .map((t) => t.sprite.name);
     }
 
     getCloneModes() {
@@ -580,11 +641,12 @@
 
     _getTargets(name, mode) {
       const runtime = Scratch.vm.runtime;
-      return runtime.targets.filter(t =>
-        t.isSprite &&
-        !t.isStage &&
-        t.sprite.name === name &&
-        (mode === "clone included" || !t.isClone)
+      return runtime.targets.filter(
+        (t) =>
+          t.isSprite &&
+          !t.isStage &&
+          t.sprite.name === name &&
+          (mode === "clone included" || !t.isClone)
       );
     }
 
