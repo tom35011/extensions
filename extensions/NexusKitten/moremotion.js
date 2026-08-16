@@ -243,7 +243,6 @@
             extensions: ["colours_motion"],
           },
           "---",
-          // Motion++ Blocks
           {
             filter: [Scratch.TargetType.SPRITE],
             opcode: "turnRight",
